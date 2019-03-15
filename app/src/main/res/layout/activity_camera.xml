@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_take_photo"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -17,6 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:src="@android:drawable/ic_menu_camera"
+        android:onClick="onTakePhotoButtonClicked"
         app:backgroundTint="@color/colorPrimary" />
 
 </RelativeLayout>
